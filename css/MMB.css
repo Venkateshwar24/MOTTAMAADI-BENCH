@@ -1,0 +1,267 @@
+
+
+
+
+.menulogo{
+  max-width:75px;
+ z-index: +1;
+}
+
+
+  .bg-img {
+  background-image: url("./../images/mmb_ps.jpg");
+  height:90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  
+          }
+ @media (max-width:768px)
+ {
+   .bg-img{
+     background-image: url("./../images/mmb_psb.jpg");
+     height:90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  
+   }
+ }    
+  
+ .bg-img h1{
+  padding: 6em 0.5em 0;
+  color: white;
+    text-align: center;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+      
+    
+    
+ }
+ .bg-img .home_link{
+  display: block !important;
+ margin: 2em auto !important;
+ background-color: red !important;
+  border-color: red !important;
+ 
+
+ }
+
+#header{
+  background-color: black;
+position: fixed;
+  
+ opacity: 90%;
+
+  width: 100%;
+  z-index: +1;
+
+
+}
+
+
+.navigate{
+  margin-top: auto; 
+  margin-bottom: auto;
+   display: block;
+  }
+/* .navbar-toggler>.close {
+  display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+} */
+.navbar-nav .nav-item .nav-link{
+  color:white;
+  font-size: 12pt;
+  letter-spacing:4px;
+  margin-top: auto;
+  margin-bottom: auto; 
+  display: block;
+}
+
+
+.navbar-nav  .nav-item:hover .nav-link{
+   color:darkgray;
+
+ }
+
+
+
+
+
+.works{
+  width:250px;
+  height: 220px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.works-name{
+  margin-top: 50px;
+}
+.works-info{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+font-size: 20px;
+}
+
+.works-link{
+
+  background-color: black !important;
+  border-color: black !important;
+  margin-top: 25px;
+}
+#footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+   z-index:+1 ;
+   opacity: 100%;
+   
+   width: 100%;
+   
+}
+#cc{
+  color:white;
+  text-decoration: none;
+}
+#footer  :hover #cc {
+  color: darkgray;
+}
+.bg-sf{
+  background-image: url("./../images/26172818_1556535974430060_913873707532230800_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 60vh;
+    }
+.bg-sf .quote-film{
+  color: white;
+    text-align: center;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: +1;
+    padding-top: 8em ;
+   font-size:2em;
+    padding-left:0.5em;
+  
+}
+@media (max-width:767px)
+{
+  .bg-sf .quote-film{
+    text-align: center;
+    padding-top: 7em;
+    font-size:1.5em;
+  }
+}
+
+#collab{
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.shortfilmName {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bg-posters{
+  background-image: url("./../images/pse-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 50vh;
+  /* filter: blur(2px); */
+}
+.bg-posters .quote-poster{
+  color: white;
+    text-align: center;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: +1;
+    padding-top: 5em ;
+        padding-left:0.5em;
+}
+@media (min-width:992px)
+{
+  .bg-posters .quote-poster{
+    padding-top:7em;
+  }
+}
+.posters  .postergallery .post img{
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 100px;
+}
+.bg-mashups{
+  background-image: url("./../images/wp4829155-editing-photo-wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 60vh;
+  
+}
+.bg-mashups .quote-mashups{
+  color: white;
+    text-align: center;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: +1;
+    padding-top: 8em ;
+        padding-left:0.5em;
+}
+@media (max-width:767px)
+{
+  .bg-mashups .quote-mashups{
+    padding-top:5em ;
+  }
+
+}
+.mashupname{
+  text-transform: uppercase;
+  text-align: center;
+}
+.bg-contactus{
+  background-image: url("./../images/mottamaadi\ youtube.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 85vh;
+
+}
+/* .bg-contactus .socialmedia {
+ background-color: black !important;
+ color: white !important;
+ border-color: black !important;
+ margin: 35% !important;
+ padding: 0.5em !important;
+ width:25% !important;} */
+   
+
+ #winner{
+    width: 100%;
+    
+    
+ }
+ #certificate{
+   width:100%;
+   height: 79%;
+ }
